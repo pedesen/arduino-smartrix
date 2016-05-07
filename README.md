@@ -35,7 +35,7 @@ Hex representation of the matrix:
 Serial message sent to the arduino:
 `0432B8;`
 
-The first byte (`0`) addresses the first MAX72xx device, the second byte (`5`) defines a number of 5 rows, the third byte (`8`) defines a number of 8 columns, bytes 4 to 6 (`2B8`) are the hex representation of the 4x3 matrix (see above). The last byte (`;`) is the termination byte.
+The first byte (`0`) addresses the first MAX72xx device, the second byte (`4`) defines a number of 4 rows, the third byte (`3`) defines a number of 3 columns, bytes 4 to 6 (`2B8`) are the hex representation of the 4x3 matrix (see above). The last byte (`;`) is the termination byte.
 
 ## Example for a 8x8 LED Matrix
 
